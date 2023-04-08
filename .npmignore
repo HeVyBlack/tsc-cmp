@@ -3,3 +3,4 @@ tsconfig.json
 node_modules
 pnpm-lock.yaml
 package-lock.json
+src
