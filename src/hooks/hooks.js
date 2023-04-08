@@ -13,7 +13,6 @@ import { findSwcrc } from "../libs/swc.js";
 import fs from "node:fs/promises";
 import { logger } from "../utils/logger.js";
 import esbuild from "esbuild";
-import { esbuildDecorators } from "@anatine/esbuild-decorators";
 
 const swcrc = await findSwcrc();
 const extensionsRegex = /\.m?ts$/;
